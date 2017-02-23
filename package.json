@@ -1,7 +1,7 @@
 {
-  "name": "word-of-the-day",
+  "name": "react_app_skeleton",
   "version": "1.0.0",
-  "description": "An app that gives you a word along with a definition, synonyms, and antonyms.",
+  "description": "A file structure for a full react app",
   "author": "Brandon Culp",
   "main": "server/main.js",
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "respository": {
     "type": "git",
-    "url": "git+https://github.com/Bculp/Word-of-the-day.git"
+    "url": "git+https://github.com/Bculp/react_app_skeleton.git"
   },
   "bugs": {
-    "url": "https://github.com/Bculp/Word-of-the-day/issues"
+    "url": "https://github.com/Bculp/react_app_skeleton/issues"
   },
   "dependencies": {
     "babel": "^6.23.0",
