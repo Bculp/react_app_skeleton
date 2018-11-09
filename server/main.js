@@ -1,14 +1,14 @@
-const startDb = require('./db');
 const server = require('http').createServer();
+const app = require('./app');
+const startDb = require('./db');
 
 function createApplication() {
-	let app = require('./app');
-	server.on('request', app);
+  server.on('request', app);
 }
 
 function startServer() {
-	let PORT = process.env.PORT || 3000;
-	server.listen(PORT, () => console.log('Server started on port', PORT));
+  const PORT = process.env.PORT || 3000;
+  server.listen(PORT, () => console.log('Server started on port', PORT));
 }
 
 startDb
